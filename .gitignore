@@ -1,0 +1,20 @@
+# 采集产物（体积大且随任务变化，不入版本库）
+snapshots/
+reports/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本地配置 / 凭证
+.env
+config.json
+*.token
+
+# 编辑器
+.idea/
+.vscode/
+.DS_Store
